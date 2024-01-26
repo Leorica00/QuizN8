@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuizN8</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="persan">Persan</string>
+    <string name="notifications">Notifications</string>
+    <string name="fyneen">Fyneen</string>
+    <string name="business">Business</string>
+    <string name="personal">Personal</string>
+    <string name="callendar">Callendar</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="amanda_rachel">Amanda Rachel</string>
+    <string name="gianti_mode_gelap">Gianti Mode Gelap</string>
+    <string name="amanda_mail_ru">amanda@mail.ru</string>
+</resources>
