@@ -1,6 +1,7 @@
 package com.example.quizn8.presentation.screen.home
 
 import android.util.Log
+import android.util.Log.d
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
@@ -40,7 +41,11 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
         }
 
         drawerItemsBinding.recyclerDrawbaleItems.layoutManager = LinearLayoutManager(requireContext())
-        drawerItemsBinding.recyclerDrawbaleItems.adapter = drawerRecyclerViewAdapter
+        drawerItemsBinding.recyclerDrawbaleItems.adapter = drawerRecyclerViewAdapter.apply {
+            onClick = {
+                viewModel.selectItem(it)
+            }
+        }
     }
 
     override fun setUpListeners() {
